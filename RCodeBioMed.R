@@ -18,3 +18,4 @@ hist(dat$fup_6mo) # most kids followed up for same time, some dropped out
 hist(dat$BMI_6mo) # such a nice normal distribution
 
 # Recode sex variable
+dat$sex[dat$sex==2] <- 0
